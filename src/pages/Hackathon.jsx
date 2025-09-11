@@ -2,19 +2,41 @@
 import React, { useState, useEffect } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { Float, Sphere, MeshDistortMaterial, OrbitControls } from '@react-three/drei';
-import Challenges from './Challenges';
+import Challenges from './Challenges'; 
+import "../index.css"
 
-const ThreeBackground = () => (
-    <Canvas camera={{ position: [0, 0, 3] }}>
-        <ambientLight intensity={0.5} />
-        <Float speed={2} rotationIntensity={1}>
-            <Sphere args={[1.4, 64, 64]}>
-                <MeshDistortMaterial color="#3B82F6" distort={0.5} speed={2} />
-            </Sphere>
-        </Float>
-        <OrbitControls enableZoom={false} enablePan={false} enableRotate={false} />
-    </Canvas>
-);
+const ThreeBackground = () => {
+    const [isMobile, setIsMobile] = useState(false);
+
+    useEffect(() => {
+        const checkMobile = () => {
+            setIsMobile(window.innerWidth <= 768);
+        };
+        checkMobile();
+        window.addEventListener('resize', checkMobile);
+        return () => window.removeEventListener('resize', checkMobile);
+    }, []);
+
+    return (
+        <Canvas
+            camera={{ position: [0, 0, 3] }}
+            dpr={isMobile ? 1 : 1.5} // limit pixel ratio on mobile
+            gl={{ antialias: !isMobile }} // disable antialias on mobile for performance
+        >
+            <ambientLight intensity={0.5} />
+            <Float speed={isMobile ? 1 : 2} rotationIntensity={isMobile ? 0.5 : 1}>
+                <Sphere args={[1.4, isMobile ? 16 : 64, isMobile ? 16 : 64]}>
+                    <MeshDistortMaterial
+                        color="#3B82F6"
+                        distort={isMobile ? 0.2 : 0.5}
+                        speed={isMobile ? 1 : 2}
+                    />
+                </Sphere>
+            </Float>
+            <OrbitControls enableZoom={false} enablePan={false} enableRotate={false} />
+        </Canvas>
+    );
+};
 
 const Hackathon = () => {
     const [menuOpen, setMenuOpen] = useState(false);
