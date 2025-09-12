@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { Float, Sphere, MeshDistortMaterial, OrbitControls } from '@react-three/drei';
-import Challenges from './Challenges'; 
+import Challenges from './Challenges';
 import "../index.css"
 
 const ThreeBackground = () => {
@@ -79,7 +79,7 @@ const Hackathon = () => {
                     </button>
                 </div>
 
-                <a href="#registration" className="hidden md:inline-block bg-blue-600 text-white px-6 py-2 rounded-full text-sm font-semibold hover:bg-blue-700 transition">
+                <a href="https://forms.gle/j8zH8QfPUxgfWBNS9" className="hidden md:inline-block bg-blue-600 text-white px-6 py-2 rounded-full text-sm font-semibold hover:bg-blue-700 transition">
                     Registration Open
                 </a>
             </nav>
@@ -95,7 +95,7 @@ const Hackathon = () => {
                             ))}
                             <li><a href="/whatsapp" className="hover:text-blue-600 capitalize">WhatsApp</a></li>
                             <li>
-                                <a href="#registration" className="bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-bold block hover:bg-blue-700 transition" onClick={() => setMenuOpen(false)}>
+                                <a href="https://forms.gle/j8zH8QfPUxgfWBNS9" className="bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-bold block hover:bg-blue-700 transition" onClick={() => setMenuOpen(false)}>
                                     Registration Open
                                 </a>
                             </li>
@@ -105,7 +105,7 @@ const Hackathon = () => {
             )}
 
             {/* Hero Section */}
-            <section className="relative h-screen flex flex-col justify-center items-center text-center px-6 md:px-20 overflow-hidden">
+            <section className="relative min-h-screen pt-28 flex flex-col justify-center items-center text-center px-6 md:px-20 overflow-hidden">
                 <div className="absolute inset-0 z-0 pointer-events-none">
                     <ThreeBackground />
                 </div>
@@ -122,9 +122,13 @@ const Hackathon = () => {
                     <p className="mt-3 mb-8 text-sm md:text-base font-semibold text-gray-300">
                         Organised by <span className="text-white font-bold">SR Group of Institutions (SRGI)</span>
                     </p>
-                    <a href="#registration" className="inline-block mt-6 px-8 py-3 border-2 border-white rounded-full text-white font-semibold hover:bg-white hover:text-black transition">
+                    <a href="https://forms.gle/j8zH8QfPUxgfWBNS9" className="inline-block mt-6 px-8 py-3 border-2 border-white rounded-full text-white font-semibold hover:bg-white hover:text-black transition">
                         Registration Open
                     </a>
+                    <a href="https://forms.gle/wcaAQnf1xaCY8rm98" className="inline-block mt-6 ml-4 px-8 py-3 border-2 border-white rounded-full text-white font-semibold hover:bg-white hover:text-black transition">
+                        Register Your Team
+                    </a>
+
                 </div>
             </section>
 
@@ -202,7 +206,7 @@ const Hackathon = () => {
             <section id="registration" className="py-16 px-6 md:px-12 max-w-4xl mx-auto text-center">
                 <h2 className="text-3xl font-bold mb-6">Register Now</h2>
                 <p className="text-gray-300 mb-6">Click below to register your team and secure your spot in SRIMT Hackathon 2025!</p>
-                <a href="https://your-registration-form-link.com" target="_blank" rel="noopener noreferrer" className="bg-blue-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-blue-700 transition">
+                <a href="https://forms.gle/wcaAQnf1xaCY8rm98" target="_blank" rel="noopener noreferrer" className="bg-blue-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-blue-700 transition">
                     Register Your Team
                 </a>
             </section>
