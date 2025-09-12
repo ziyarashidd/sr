@@ -6,6 +6,7 @@ const firstYearChallenges = [
   "SRGI Clone.",
   "To-Do List App.",
   "Make a basic weather forecast app using a public API (like OpenWeather) styled with space elements.",
+  "Voice Assistant(basic)",
 ];
 
 const seniorYearChallenges = [
