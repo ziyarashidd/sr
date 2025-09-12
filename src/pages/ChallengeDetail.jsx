@@ -187,6 +187,42 @@ Screenshots (optional but recommended)
 
 Hosted version link (GitHub Pages or similar if applicable)`,
   },
+  {
+    title: "Voice Assistant(basic)",
+    description:`Voice Assistant (Basic) - Description
+
+A Basic Voice Assistant is a software application designed to recognize spoken language and respond with pre-defined or programmed actions. It uses speech recognition to understand user commands and text-to-speech (TTS) to reply. Unlike advanced AI-based assistants, a basic voice assistant operates with limited functionality, often based on fixed keywords or phrases.
+
+Key Features:
+
+Speech Recognition: Converts spoken words into text using voice input.
+
+Command Execution: Performs simple tasks like opening apps, telling the time, setting reminders, or answering FAQs.
+
+Text-to-Speech (TTS): Converts text responses into speech to communicate with the user.
+
+Offline Functionality (optional): Some basic voice assistants can work without an internet connection.
+
+Keyword-Based Activation: Listens for specific words or phrases to trigger responses (e.g., “Hey Assistant”).
+
+Common Use Cases:
+
+Setting alarms or reminders
+
+Providing weather or time information
+
+Playing music or opening applications
+
+Answering simple, predefined questions
+
+Limitations:
+
+Cannot understand complex sentences or context
+
+Limited vocabulary and functionality
+
+Often rule-based (non-AI) logic`,
+  },
   
   {
     title: "Personal Expense Tracker App",
