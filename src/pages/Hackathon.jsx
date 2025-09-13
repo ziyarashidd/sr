@@ -189,6 +189,41 @@ const Hackathon = () => {
                 </div>
             </section>
 
+            {/* Rules Section */}
+            <section id="rules" className="bg-gray-900 py-16 px-6 md:px-12">
+                <h2 className="text-3xl font-bold mb-8 border-b border-blue-600 inline-block">Hackathon Rules</h2>
+                <ul className="max-w-4xl mx-auto text-gray-300 space-y-4 list-disc list-inside leading-relaxed">
+                    <li>Each team must consist of 3 to 4 members.</li>
+                    <li>All participants must be currently enrolled students (Undergraduate, Postgraduate, or PhD).</li>
+                    <li>No plagiarism. Projects must be original and built during the hackathon timeline.</li>
+                    <li>Teams must submit a working prototype along with a brief documentation.</li>
+                    <li>Any use of AI tools must be clearly documented in your submission.</li>
+                    <li>Follow proper coding standards and comment your code where needed.</li>
+                    <li>Organizers reserve the right to disqualify any team violating the rules or code of conduct.</li>
+                </ul>
+            </section>
+
+            {/* Rounds Section */}
+            <section id="rounds" className="py-16 px-6 md:px-12 max-w-6xl mx-auto">
+                <h2 className="text-3xl font-bold mb-8 border-b border-blue-600 inline-block">Hackathon Rounds</h2>
+                <div className="text-gray-300 space-y-6 leading-relaxed">
+                    <div>
+                        <h3 className="text-xl font-semibold text-white mb-2">🧠 Round 1: Idea Submission</h3>
+                        <p>Teams will submit their innovative idea, explaining the problem they’re solving, proposed solution, and basic tech stack. Submission deadline: <strong>15th September 2025</strong>.</p>
+                    </div>
+                    <div>
+                        <h3 className="text-xl font-semibold text-white mb-2">🛠️ Round 2: Prototype Development</h3>
+                        <p>Selected teams will build a working prototype on the hackathon day. This includes coding, testing, and preparing a brief demo. Final submission: <strong>16th September 2025</strong>.</p>
+                    </div>
+                    <div>
+                        <h3 className="text-xl font-semibold text-white mb-2">🎤 Round 3: Live Demo & Judging</h3>
+                        <p>Teams will pitch their project to a panel of judges, demonstrating functionality, innovation, and impact. Winners will be selected based on creativity, technical implementation, and real-world applicability.</p>
+                    </div>
+                </div>
+            </section>
+
+
+
             {/* FAQs */}
             <section id="faqs" className="bg-gray-900 py-16 px-6 md:px-12">
                 <h2 className="text-3xl font-bold mb-8 border-b border-blue-600 inline-block">FAQs</h2>
