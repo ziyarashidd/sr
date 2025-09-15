@@ -128,6 +128,9 @@ const Hackathon = () => {
                     <a href="https://forms.gle/wcaAQnf1xaCY8rm98" className="inline-block mt-6 ml-4 px-8 py-3 border-2 border-white rounded-full text-white font-semibold hover:bg-white hover:text-black transition">
                         Register Your Team
                     </a>
+                    <a href="https://srhackathon.vercel.app/" className="inline-block mt-6 ml-4 px-8 py-3 border-2 border-white rounded-full text-white font-semibold hover:bg-white hover:text-black transition">
+                        Start 1st Round
+                    </a>
 
                 </div>
             </section>
@@ -255,3 +258,4 @@ const Hackathon = () => {
 };
 
 export default Hackathon;
+
