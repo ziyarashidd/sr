@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 const firstYearChallenges = [
   "Personal Portfolio Website.",
   "Digital Clock and countdown timer.",
-  "SRGI Clone.",
+  "Smart India Hackathon Clone.",
   "To-Do List App.",
   "Make a basic weather forecast app using a public API (like OpenWeather) styled with space elements.",
   "Voice Assistant(basic)",
