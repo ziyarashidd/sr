@@ -80,7 +80,7 @@ const Hackathon = () => {
                 </div>
 
                 <a href="https://forms.gle/j8zH8QfPUxgfWBNS9" className="hidden md:inline-block bg-blue-600 text-white px-6 py-2 rounded-full text-sm font-semibold hover:bg-blue-700 transition">
-                    Registration Open
+                    Registration Closed
                 </a>
             </nav>
 
@@ -96,7 +96,7 @@ const Hackathon = () => {
                             <li><a href="/whatsapp" className="hover:text-blue-600 capitalize">WhatsApp</a></li>
                             <li>
                                 <a href="https://forms.gle/j8zH8QfPUxgfWBNS9" className="bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-bold block hover:bg-blue-700 transition" onClick={() => setMenuOpen(false)}>
-                                    Registration Open
+                                    Registration Closed
                                 </a>
                             </li>
                         </ul>
@@ -124,14 +124,14 @@ const Hackathon = () => {
                         Organised by <span className="text-white font-bold">Smart India Hackathon</span>
                     </p>
                     <a href="https://forms.gle/j8zH8QfPUxgfWBNS9" className="inline-block mt-6 px-8 py-3 border-2 border-white rounded-full text-white font-semibold hover:bg-white hover:text-black transition">
-                        Registration Open
+                        Registration Closed
                     </a>
                     <a href="https://forms.gle/wcaAQnf1xaCY8rm98" className="inline-block mt-6 ml-4 px-8 py-3 border-2 border-white rounded-full text-white font-semibold hover:bg-white hover:text-black transition">
-                        Register Your Team
+                        Team Registration Closed
                     </a>
-                    <a href="https://srhackathon.vercel.app/" className="inline-block mt-6 ml-4 px-8 py-3 border-2 border-white rounded-full text-white font-semibold hover:bg-white hover:text-black transition">
+{/*                     <a href="https://srhackathon.vercel.app/" className="inline-block mt-6 ml-4 px-8 py-3 border-2 border-white rounded-full text-white font-semibold hover:bg-white hover:text-black transition">
                         Start 1st Round
-                    </a>
+                    </a> */}
 
                 </div>
             </section>
@@ -177,7 +177,7 @@ const Hackathon = () => {
             <section id="schedule" className="bg-gray-900 py-16 px-6 md:px-12">
                 <h2 className="text-3xl font-bold mb-8 border-b border-blue-600 inline-block">Schedule</h2>
                 <ul className="text-gray-300 space-y-4 max-w-3xl">
-                    <li><strong>Registrations Open: </strong> Sep 11 – Sep 15</li>
+                    <li><strong>Registrations Closed: </strong> Sep 11 – Sep 15</li>
                     <li><strong>Idea Submission Deadline:</strong> Sep 15, 2025</li>
                     <li><strong>Hackathon Days:</strong> Sep 16, 2025</li>
                     <li><strong>Result Announcement:</strong> Sep 16, 2025</li>
@@ -243,10 +243,10 @@ const Hackathon = () => {
 
             {/* Registration */}
             <section id="registration" className="py-16 px-6 md:px-12 max-w-4xl mx-auto text-center">
-                <h2 className="text-3xl font-bold mb-6">Register Now</h2>
+                <h2 className="text-3xl font-bold mb-6">Registration Closed</h2>
                 <p className="text-gray-300 mb-6">Click below to register your team and secure your spot in Smart India Hackathon 2025!</p>
                 <a href="https://forms.gle/wcaAQnf1xaCY8rm98" target="_blank" rel="noopener noreferrer" className="bg-blue-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-blue-700 transition">
-                    Register Your Team
+                    Team Registration CLosed
                 </a>
             </section>
 
@@ -259,3 +259,4 @@ const Hackathon = () => {
 };
 
 export default Hackathon;
+
