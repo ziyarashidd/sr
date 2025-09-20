@@ -51,11 +51,11 @@ const Hackathon = () => {
     }, [menuOpen]);
 
     const faqs = [
-        ["Who can participate in the SRIMT Hackathon 2025?", "Undergraduate Students, Graduate/Postgraduate Students, PhD Students, and Research Scholars in India are eligible to participate."],
+        ["Who can participate in the Smart India Hackathon 2025?", "Undergraduate Students, Graduate/Postgraduate Students, PhD Students, and Research Scholars in India are eligible to participate."],
         ["What should be the ideal team size?", "Each team shall consist of 3 to 4 members. Members can be from colleges/universities."],
-        ["What is the cost of participating?", "A participation fee of ₹50 per candidate will be charged."],
+        ["What is the cost of participating?", "No participation fee will be charged from candidates."],
         ["Do I need prior any experience?", "No. The hackathon is open to all eligible students passionate about solving real-world challenges in space technology."],
-        ["Will SRIMT mentors be available throughout?", "Yes. Participants will have access to mentorship from SRIMT during the hackathon phases."],
+        ["Will Smart India Hackathon mentors be available throughout?", "Yes. Participants will have access to mentorship from Smart India Hackthon during the hackathon phases."],
         ["Do we need to create a prototype now?", "Yes. All participants must build and submit a working prototype as part of their final project by the deadline (16th September). Ensure your submission is complete and functional for evaluation."]
     ];
 
@@ -112,15 +112,16 @@ const Hackathon = () => {
                 <div className="absolute inset-0 bg-gradient-to-t from-black via-black/80 to-transparent z-10" />
                 <div className="relative z-20 max-w-4xl">
                     <h1 className="text-5xl md:text-6xl font-extrabold mb-2">
-                        <span className="text-blue-500">BUILD </span><span className="text-white">WITH</span><br />
-                        <span className="text-orange-500">SRIMT</span><br />
+                        <span className="text-blue-500">SMART </span>
+                        {/* <span className="text-white">WITH</span><br /> */}
+                        <span className="text-orange-500">INDIA</span><br />
                         <span className="text-white">HACKATHON 2025</span>
                     </h1>
                     <p className="mt-6 text-lg md:text-xl font-light max-w-xl mx-auto">
-                        Welcome to the SRIMT Hackathon 2025 — a national-level innovation challenge proudly hosted by SR Group of Institutions (SRGI), in collaboration with CodeNestia, empowering students to solve real-world space-tech challenges.
+                        Welcome to the SMART INDIA Hackathon 2025 — a national-level innovation challenge proudly hosted by Smart India Hackathon, {/* in collaboration with CodeNestia, */} empowering students to solve real-world space-tech challenges.
                     </p>
                     <p className="mt-3 mb-8 text-sm md:text-base font-semibold text-gray-300">
-                        Organised by <span className="text-white font-bold">SR Group of Institutions (SRGI)</span>
+                        Organised by <span className="text-white font-bold">Smart India Hackathon</span>
                     </p>
                     <a href="https://forms.gle/j8zH8QfPUxgfWBNS9" className="inline-block mt-6 px-8 py-3 border-2 border-white rounded-full text-white font-semibold hover:bg-white hover:text-black transition">
                         Registration Open
@@ -139,7 +140,7 @@ const Hackathon = () => {
             <section id="about" className="max-w-6xl mx-auto px-6 md:px-12 py-16">
                 <h2 className="text-3xl font-bold mb-6 border-b border-blue-600 inline-block">About</h2>
                 <p className="text-gray-300 leading-relaxed max-w-4xl">
-                    The SRGI Hackathon 2025 is a national-level innovation challenge designed to empower budding engineers and tech enthusiasts. Open to B.Tech students across disciplines, this hackathon offers a dynamic platform to showcase your creativity, coding skills, and problem-solving abilities. Join us at SR Group of Institutions to collaborate, build real-world solutions, and take your ideas from concept to reality.
+                    The Smart India  Hackathon 2025 is a national-level innovation challenge designed to empower budding engineers and tech enthusiasts. Open to B.Tech students across disciplines, this hackathon offers a dynamic platform to showcase your creativity, coding skills, and problem-solving abilities. Join us at Smart India Hackathon 2025 to collaborate, build real-world solutions, and take your ideas from concept to reality.
                 </p>
             </section>
 
@@ -164,7 +165,7 @@ const Hackathon = () => {
                 <ul className="max-w-4xl space-y-6 text-gray-300 list-disc list-inside leading-relaxed">
                     <li><strong>Learn from Industry Mentors:</strong> Get guidance from experienced faculty members and industry professionals to shape your innovative ideas.</li>
                     <li><strong>Network & Collaborate:</strong> Work with talented peers, build strong teams, and connect with like-minded tech enthusiasts.</li>
-                    <li><strong>Internship & Placement Opportunities:</strong> Top-performing teams may receive internship or placement opportunities through CodeNestia tie-ups.</li>
+                    <li><strong>Internship & Placement Opportunities:</strong> Top-performing teams may receive internship or placement opportunities through Our College.</li>
                     <li><strong>Recognition & Certification:</strong> Earn certificates, prizes, and recognition that strengthen your resume and academic profile.</li>
                 </ul>
             </section>
@@ -188,7 +189,7 @@ const Hackathon = () => {
                 <h2 className="text-3xl font-bold mb-8 border-b border-blue-600 inline-block">Rewards</h2>
                 <div className="text-gray-300 space-y-4">
                     <p><strong>Top 3 Winners:</strong> Certificates, cash prizes, and more.</p>
-                    <p><strong>All Participants:</strong> E-certificates from SRGI tie-up by CodeNestia.</p>
+                    <p><strong>All Participants:</strong> E-certificates from Our College.</p>
                 </div>
             </section>
 
@@ -243,7 +244,7 @@ const Hackathon = () => {
             {/* Registration */}
             <section id="registration" className="py-16 px-6 md:px-12 max-w-4xl mx-auto text-center">
                 <h2 className="text-3xl font-bold mb-6">Register Now</h2>
-                <p className="text-gray-300 mb-6">Click below to register your team and secure your spot in SRIMT Hackathon 2025!</p>
+                <p className="text-gray-300 mb-6">Click below to register your team and secure your spot in Smart India Hackathon 2025!</p>
                 <a href="https://forms.gle/wcaAQnf1xaCY8rm98" target="_blank" rel="noopener noreferrer" className="bg-blue-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-blue-700 transition">
                     Register Your Team
                 </a>
@@ -251,11 +252,10 @@ const Hackathon = () => {
 
             {/* Footer */}
             <footer className="bg-black text-gray-500 py-6 text-center text-sm">
-                © 2025 SRGI Hackathon. Built with ❤️ by CodeNestia.
+                © 2025 Smart India Hackathon. Built with ❤️ by Ziya Rashid.
             </footer>
         </div>
     );
 };
 
 export default Hackathon;
-
