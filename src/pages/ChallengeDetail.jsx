@@ -70,10 +70,10 @@ Using setInterval and clearInterval
 Working with date and time in JavaScript`,
   },
   {
-    title: "SRGI Clone.",
+    title: "Smart India Hackathon Clone.",
     description: `✅ Objective:
 
-To recreate the homepage layout of the official SRGI website using HTML and CSS.
+To recreate the homepage layout of the official Smart India Hackathon website using HTML and CSS.
 
 🧰 Technologies Used:
 
@@ -83,7 +83,7 @@ CSS
 
 📄 Description:
 
-This project challenges students to observe and replicate the design and layout of the SRGI college website. It includes basic sections like navigation bar, hero banner, about section, and footer. No functionality is required, only design.
+This project challenges students to observe and replicate the design and layout of the Smart India Hackathon website. It includes basic sections like navigation bar, hero banner, about section, and footer. No functionality is required, only design.
 
 ✨ Features:
 
